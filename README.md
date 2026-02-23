@@ -19,25 +19,25 @@ O sistema foi desenvolvido para consolidar dados financeiros de diferentes fonte
 
 ## 🛠️ Arquitetura Técnica
 
- - Frontend
+### Frontend
 
-  React.js: Biblioteca base para a construção da interface.
+   - React.js: Biblioteca base para a construção da interface.
 
-  Tailwind CSS: Estilização utilitária para um design limpo e rápido.
+   - Tailwind CSS: Estilização utilitária para um design limpo e rápido.
 
-  Recharts: Renderização de gráficos de área e linha para análise de tendências.
+   - Recharts: Renderização de gráficos de área e linha para análise de tendências.
 
- - Backend
+### Backend
 
-  Java 17 & Spring Boot 3: Core da aplicação e gestão de serviços.
+  - Java 17 & Spring Boot 3: Core da aplicação e gestão de serviços.
 
-  Spring Data JPA: Abstração da camada de persistência.
+  - Spring Data JPA: Abstração da camada de persistência.
 
-  RestTemplate & Type Safety: Integração robusta com:
+  - RestTemplate & Type Safety: Integração robusta com:
 
-    Brapi Dev: Dados do mercado de ações brasileiro.
+          Brapi Dev: Dados do mercado de ações brasileiro.
 
-    Binance API: Cotações de criptoativos em tempo real.
+          Binance API: Cotações de criptoativos em tempo real.
 
 Tratamento de Exceções: Lógica granular que evita que a falha de uma API externa interrompa a aplicação.
 
