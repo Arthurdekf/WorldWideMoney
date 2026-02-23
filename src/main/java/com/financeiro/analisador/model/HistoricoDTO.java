@@ -5,9 +5,9 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data                // Gera Getters, Setters, toString, equals e hashCode
-@AllArgsConstructor  // Gera construtor com todos os campos (data e preco)
-@NoArgsConstructor   // Gera construtor vazio (necessário para o Spring/Jackson)
+@AllArgsConstructor  // Gera construtor com todos os campos
+@NoArgsConstructor   // Gera construtor vazio
 public class HistoricoDTO {
-    private String data; // Pode ser formatada como "dd/MM" ou "HH:mm"
+    private String data; // "dd/MM" ou "HH:mm"
     private Double preco;
 }

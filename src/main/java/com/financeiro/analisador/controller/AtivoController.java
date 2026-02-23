@@ -24,7 +24,7 @@ public class AtivoController {
         this.ativoService = ativoService;
     }
 
-    // 1. Colocamos o Dashboard PRIMEIRO
+    // 1. Dashboard 
     @GetMapping("/dashboard")
     public List<Ativo> getDashboard() {
         String acoes = "PETR4,VALE3,WEGE3,ITUB4,BBAS3,AAPL,TSLA,NVDA,GOOGL,MSFT";
@@ -33,7 +33,7 @@ public class AtivoController {
         return ativoService.buscarVariosAtivos(acoes, criptos);
     }
 
-    // 2. A rota individual vem DEPOIS e com um nome diferente para não confundir
+    // 2. Rotas individuais com nome diferente
     @GetMapping("/ticker/{simbolo}")
     public Ativo getCotacao(@PathVariable String simbolo) {
         return ativoService.buscarCotacaoReal(simbolo);

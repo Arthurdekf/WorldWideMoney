@@ -47,10 +47,10 @@ function App() {
       padding: '60px 50px 0 50px',
       fontFamily: 'sans-serif',
       position: 'relative',
-      overflow: 'hidden' // Garante que as luzes não criem barra de rolagem
+      overflow: 'hidden' 
     }}>
 
-      {/* Esferas de Luz de Fundo (O segredo do efeito vidro) */}
+      {/* Esferas de Luz de Fundo */}
       <div style={{ position: 'absolute', top: '10%', left: '15%', width: '400px', height: '400px', background: 'rgba(59, 130, 246, 0.15)', filter: 'blur(100px)', borderRadius: '50%', zIndex: 0 }}></div>
       <div style={{ position: 'absolute', bottom: '10%', right: '15%', width: '350px', height: '350px', background: 'rgba(147, 51, 234, 0.15)', filter: 'blur(100px)', borderRadius: '50%', zIndex: 0 }}></div>
 
@@ -67,7 +67,7 @@ function App() {
           maxWidth: '1100px',
           textAlign: 'center',
           marginBottom: '10px',
-          color: '#3b82f6', // Azul para combinar
+          color: '#3b82f6',
           fontSize: '0.8rem',
           fontWeight: 'bold',
           letterSpacing: '1px'
@@ -103,14 +103,14 @@ function App() {
             alignItems: 'center',
             justifyContent: 'center',
             padding: 0,
-            overflow: 'hidden' // Garante que o ícone não saia do limite ao girar
+            overflow: 'hidden' // ícone não sai do limite ao girar
           }}
         >
           <span className={girando ? 'spinning' : ''} style={{
             fontSize: '1.6rem',
-            display: 'flex', // Essencial para o giro funcionar
+            display: 'flex', // giro 
             lineHeight: '1',
-            marginTop: '-4px' // Ajuste fino manual para centralizar o caractere ⟳
+            marginTop: '-4px' // centralizar o ⟳
           }}>
             ⟳
           </span>

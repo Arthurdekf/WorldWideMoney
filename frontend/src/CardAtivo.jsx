@@ -60,7 +60,7 @@ const AtivoChart = ({ data, cor }) => {
                         dot={false}
                         isAnimationActive={true}
                         animationDuration={800}
-                        style={{ filter: `drop-shadow(0px 0px 5px ${cor})` }} // Aumentei um pouco para ficar mais elegante
+                        style={{ filter: `drop-shadow(0px 0px 5px ${cor})` }}
                     />
                 </LineChart>
             </ResponsiveContainer>
@@ -184,11 +184,11 @@ const CardAtivo = ({ ativo, moeda, cotacaoDolar }) => {
                     fontSize: '0.85rem',
                     fontWeight: '700',
                     color: corGrafico,
-                    background: `${corGrafico}15`, // Fundo suave com a cor do gráfico
+                    background: `${corGrafico}15`, // Fundo cor do gráfico
                     padding: '4px 12px',
                     borderRadius: '12px',
                     marginLeft: '10px',
-                    border: `1px solid ${corGrafico}30` // Borda sutil
+                    border: `1px solid ${corGrafico}30`
                 }}>
                     {mercadoFechado ? 'Fechado' : `${variacao >= 0 ? '+' : ''}${variacao.toFixed(2)}%`}
                 </span>

@@ -10,19 +10,19 @@ import jakarta.persistence.Id;
 import lombok.Data;
 
 @Entity
-@Data // O Lombok cria os getters e setters automaticamente
+@Data // Lombok getters e setters
 public class Ativo {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String simbolo; // Ex: BTC, PETR4, AAPL
+    private String simbolo; // Ex BTC, PETR4, AAPL
     private String nome;
     private BigDecimal precoAtual;
     private LocalDateTime dataAtualizacao;
 
-    // Construtor padrão
+    // Construtor
     public Ativo() {
         this.dataAtualizacao = LocalDateTime.now();
     }
