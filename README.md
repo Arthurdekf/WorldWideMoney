@@ -19,7 +19,7 @@ O sistema foi desenvolvido para consolidar dados financeiros de diferentes fonte
 
 ## 🛠️ Arquitetura Técnica
 
-Frontend
+ - Frontend
 
   React.js: Biblioteca base para a construção da interface.
 
@@ -27,7 +27,7 @@ Frontend
 
   Recharts: Renderização de gráficos de área e linha para análise de tendências.
 
-Backend
+ - Backend
 
   Java 17 & Spring Boot 3: Core da aplicação e gestão de serviços.
 
@@ -49,7 +49,6 @@ Modularização: Separação clara entre Models, Repositories, Services e Contro
 
 <img alt="Captura de tela 2026-02-23 - 01 45 02-fullpage" src="https://github.com/user-attachments/assets/ee603058-d935-4030-b488-acf677ebc29c" />
 
-Recurso - Descrição
 - Cripto Engine:	Processamento paralelo de múltiplas moedas.
 - History Mapper:	Conversão dinâmica de Timestamps para formatos de leitura humana.
 
