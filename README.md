@@ -1,11 +1,11 @@
-## 💵 WorldWideMoney - Analisador de Mercado
+# 💵 WorldWideMoney - Analisador de Mercado
 
 Uma aplicação robusta para monitoramento em tempo real de ativos financeiros, integrando cotações da B3 (Ações) e do mercado de Criptomoedas.
 
-# 📋 Visão Geral
+## 📋 Visão Geral
 
 O sistema foi desenvolvido para consolidar dados financeiros de diferentes fontes em uma interface única. Ele automatiza o consumo de APIs externas, trata a volatilidade dos dados e organiza o histórico para análise de performance.
-# ⚡ Funcionalidades Chave:
+## ⚡ Funcionalidades Chave:
 
   Monitoramento Multi-Ativos: Consulta simultânea de Ações (via Brapi) e Criptoativos (via Binance).
 
@@ -15,7 +15,7 @@ O sistema foi desenvolvido para consolidar dados financeiros de diferentes fonte
 
   Persistência Eficiente: Arquitetura de banco de dados otimizada para registrar cada consulta e evitar chamadas desnecessárias às APIs.
 
-# 🛠️ Arquitetura Técnica
+## 🛠️ Arquitetura Técnica
 
 Frontend
 
@@ -43,7 +43,7 @@ Código Moderno: Uso extensivo de Switch Expressions e ParameterizedTypeReferenc
 
 Modularização: Separação clara entre Models, Repositories, Services e Controllers.
 
-# 📈 Exemplos de Performance
+## 📈 Exemplos de Performance
 
 <img alt="Captura de tela 2026-02-23 - 01 45 46-fullpage" src="https://github.com/user-attachments/assets/d4a33e67-42ae-40bb-9dea-240353b6ad8e" />
 <img alt="Captura de tela 2026-02-23 - 01 45 02-fullpage" src="https://github.com/user-attachments/assets/ee603058-d935-4030-b488-acf677ebc29c" />
@@ -51,5 +51,5 @@ Modularização: Separação clara entre Models, Repositories, Services e Contro
 Cripto Engine:	Processamento paralelo de múltiplas moedas.
 History Mapper:	Conversão dinâmica de Timestamps para formatos de leitura humana.
 
-# ✒️ Desenvolvido por
+## ✒️ Desenvolvido por
 Arthur Fedeli - www.linkedin.com/in/arthur-fedeli-696a9020b
