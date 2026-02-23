@@ -2,6 +2,8 @@
 
 Uma aplicação robusta para monitoramento em tempo real de ativos financeiros, integrando cotações da B3 (Ações) e do mercado de Criptomoedas.
 
+<img alt="Captura de tela 2026-02-23 - 01 45 46-fullpage" src="https://github.com/user-attachments/assets/d4a33e67-42ae-40bb-9dea-240353b6ad8e" />
+
 ## 📋 Visão Geral
 
 O sistema foi desenvolvido para consolidar dados financeiros de diferentes fontes em uma interface única. Ele automatiza o consumo de APIs externas, trata a volatilidade dos dados e organiza o histórico para análise de performance.
@@ -45,11 +47,11 @@ Modularização: Separação clara entre Models, Repositories, Services e Contro
 
 ## 📈 Exemplos de Performance
 
-<img alt="Captura de tela 2026-02-23 - 01 45 46-fullpage" src="https://github.com/user-attachments/assets/d4a33e67-42ae-40bb-9dea-240353b6ad8e" />
 <img alt="Captura de tela 2026-02-23 - 01 45 02-fullpage" src="https://github.com/user-attachments/assets/ee603058-d935-4030-b488-acf677ebc29c" />
 
-Cripto Engine:	Processamento paralelo de múltiplas moedas.
-History Mapper:	Conversão dinâmica de Timestamps para formatos de leitura humana.
+Recurso - Descrição
+- Cripto Engine:	Processamento paralelo de múltiplas moedas.
+- History Mapper:	Conversão dinâmica de Timestamps para formatos de leitura humana.
 
 ## ✒️ Desenvolvido por
 Arthur Fedeli - www.linkedin.com/in/arthur-fedeli-696a9020b
